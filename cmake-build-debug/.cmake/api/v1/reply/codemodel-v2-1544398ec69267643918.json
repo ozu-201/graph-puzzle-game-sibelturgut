@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "graph-puzzle-game-sibelturgut",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DartsGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DartsGame-Debug-b250f457548b98a21f29.json",
+					"name" : "DartsGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Main-Debug-78e46ab1986465a13fcd.json",
+					"name" : "Main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MathematicalExpression::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MathematicalExpression-Debug-804de0113b4bcf8f24a6.json",
+					"name" : "MathematicalExpression",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Polynomial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Polynomial-Debug-866c7d96694ade1b3501.json",
+					"name" : "Polynomial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestLinkedList-Debug-db5af5e6d506e4656245.json",
+					"name" : "TestLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph-puzzle-game-sibelturgut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph-puzzle-game-sibelturgut-Debug-f466b8426e9ebdb48eb0.json",
+					"name" : "graph-puzzle-game-sibelturgut",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/st034444/CLionProjects/graph-puzzle-game-sibelturgut/cmake-build-debug",
+		"source" : "C:/Users/st034444/CLionProjects/graph-puzzle-game-sibelturgut"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
