@@ -36,7 +36,7 @@ void performSearch(array::Graph graph, std::vector<std::string> wordlist, std::s
     }
     graph.breadthFirstSearch2(wordlist, from, to);
 }
-void shortestPath(array::Graph graph, std::vector<std::string> wordlist, std::string fromWord, std::string toWord){
+Path shortestPath(array::Graph graph, std::vector<std::string> wordlist, std::string fromWord, std::string toWord){
     int from = -1, to = -1;
     for (int i = 0; i < wordlist.size(); ++i) {
         if(wordlist[i] == fromWord)
@@ -44,7 +44,7 @@ void shortestPath(array::Graph graph, std::vector<std::string> wordlist, std::st
         if(wordlist[i] == toWord)
             to = i;
     }
-    Path path = graph.dijkstra(from, to);
+    return graph.dijkstra(from, to);
 }
 
 int main(){
