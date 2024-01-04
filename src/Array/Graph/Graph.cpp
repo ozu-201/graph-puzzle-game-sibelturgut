@@ -2,6 +2,8 @@
 // Created by Olcay Taner YILDIZ on 8.05.2023.
 //
 
+#include <string>
+#include <iostream>
 #include "Graph.h"
 #include "../DisjointSet.h"
 #include "../Queue.h"
@@ -63,6 +65,7 @@ namespace array{
 
     void Graph::breadthFirstSearch(bool *visited, int startNode) {
         int fromNode;
+        int* parent = new int[2000];
         Queue queue = Queue(100);
         queue.enqueue( Element(startNode));
         while (!queue.isEmpty()){
@@ -71,11 +74,41 @@ namespace array{
                 if (edges[fromNode][toNode] > 0) {
                     if (!visited[toNode]){
                         visited[toNode] = true;
+                        parent[toNode] = fromNode;
                         queue.enqueue( Element(toNode));
                     }
                 }
             }
         }
+    }
+    void Graph::breadthFirstSearch2(std::vector<std::string> wordlist, int from, int to) {
+        int fromNode;
+        int* parent = new int[wordlist.size()];
+        bool* visited = new bool[wordlist.size()];
+        Queue queue = Queue(100);
+        queue.enqueue( Element(from));
+        while (!queue.isEmpty()){
+            fromNode = queue.dequeue().getData();
+            for (int toNode = 0; toNode < vertexCount; toNode++) {
+                if (edges[fromNode][toNode] > 0) {
+                    if (!visited[toNode]){
+                        visited[toNode] = true;
+                        parent[toNode] = fromNode;
+                        queue.enqueue( Element(toNode));
+                    }
+                    if(to == toNode){
+                        int current = to;
+                        while (current != from){
+                            std::cout << wordlist[current] << "<-";
+                            current = parent[current];
+                        }
+                        std::cout<<wordlist[from]<<"\n";
+                        return;
+                    }
+                }
+            }
+        }
+        std::cout << "no path";
     }
 
     Path *Graph::bellmanFord(int source) {
@@ -94,7 +127,7 @@ namespace array{
         return shortestPaths;
     }
 
-    Path *Graph::dijkstra(int source) {
+    Path Graph::dijkstra(int source, int des) {
         Path* shortestPaths = initializePaths(source);
         MinHeap heap = MinHeap(vertexCount);
         for (int i = 0; i < vertexCount; i++){
@@ -113,7 +146,7 @@ namespace array{
                 }
             }
         }
-        return shortestPaths;
+        return shortestPaths[des];
     }
 
     int **Graph::floydWarshall() {

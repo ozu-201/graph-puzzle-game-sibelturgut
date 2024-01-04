@@ -26,21 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f47b2ffc-578e-40ab-9e1c-7eaf98ebcde1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/General/AbstractGraph.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/General/AbstractGraph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/General/Path.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/General/Path.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Array/Graph/Graph.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Array/Graph/Graph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/Edge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/Edge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/EdgeList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/EdgeList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/Graph.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Graph/Graph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph-puzzle-game-sibelturgut.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph-puzzle-game-sibelturgut.dir/src/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph-puzzle-game-sibelturgut.dir/src/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph-puzzle-game-sibelturgut.dir/src/main.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libgraph-puzzle-game-sibelturgut.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libgraph-puzzle-game-sibelturgut.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Graph/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Graph/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Graph/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Graph/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -83,6 +77,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Main">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLinkedList" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph-puzzle-game-sibelturgut" TARGET_NAME="TestLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph-puzzle-game-sibelturgut" RUN_TARGET_NAME="TestLinkedList" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -105,11 +104,6 @@
       </method>
     </configuration>
     <configuration name="Polynomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph-puzzle-game-sibelturgut" TARGET_NAME="Polynomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph-puzzle-game-sibelturgut" RUN_TARGET_NAME="Polynomial">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -150,6 +144,7 @@
       <updated>1703152567877</updated>
       <workItem from="1703152575087" duration="1541000" />
       <workItem from="1703154175027" duration="4252000" />
+      <workItem from="1704363300880" duration="6196000" />
     </task>
     <servers />
   </component>
@@ -178,8 +173,33 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>52</line>
-          <option name="timeStamp" value="7" />
+          <line>68</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
